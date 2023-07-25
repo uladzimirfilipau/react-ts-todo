@@ -1,0 +1,36 @@
+li {
+  border: 1px solid #8a8a8a;
+  display: flex;
+  height: 40px;
+}
+
+li input {
+  width: fit-content;
+  margin: 10px;
+}
+
+p {
+  max-width: 538px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #ffff52;
+  margin: 0;
+  padding: 0 10px;
+  align-self: center;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 640px) {
+  p {
+    max-width: 218px;
+  }
+}
+
+.complete {
+  text-decoration: line-through;
+  color: #1adaca;
+}
